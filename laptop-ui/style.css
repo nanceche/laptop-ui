@@ -8,7 +8,25 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.pic2 {
-  size: 2px;
-  height: 20px;
+header {
+  display: flex;
+  background-color: beige;
+  width: 90%;
+  height: 15vh;
+  margin: auto;
+  align-items: center;
+}
+.logo-container {
+  background-color: palevioletred;
+}
+.logo {
+  background-color: blue;
+}
+nav {
+  background-color: chocolate;
+  flex: 2;
+}
+.cart {
+  background-color: darkgray;
+  flex: 0.5;
 }
