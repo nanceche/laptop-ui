@@ -10,7 +10,7 @@ body {
 
 header {
   display: flex;
-  background-color: beige;
+  /* background-color: beige; */
   width: 90%;
   height: 15vh;
   margin: auto;
@@ -24,19 +24,19 @@ header {
 }
 
 .logo-container {
-  background-color: palevioletred;
+  /* background-color: palevioletred; */
 }
 .logo {
-  background-color: blue;
+  /* background-color: blue; */
 
   margin: 5px;
 }
 nav {
-  background-color: chocolate;
+  /* background-color: chocolate; */
   flex-grow: 1;
 }
 .cart {
-  background-color: darkgray;
+  /* background-color: darkgray; */
 }
 a {
   text-decoration: none;
@@ -47,4 +47,33 @@ a {
   justify-content: space-evenly;
 }
 .nav-link {
+}
+
+.presentation {
+  display: flex;
+  height: 90vh;
+  background-color: purple;
+  width: 90%;
+
+  margin: auto;
+  align-items: center;
+}
+.cover img {
+  height: 50vh;
+  background-color: palevioletred;
+}
+
+#cover2 {
+  background-color: red;
+}
+
+footer {
+  height: 10vh;
+}
+.introduction {
+  background-color: lightskyblue;
+  flex: 1;
+}
+.cover {
+  flex: 1;
 }
