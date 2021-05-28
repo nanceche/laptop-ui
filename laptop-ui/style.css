@@ -16,13 +16,20 @@ header {
   margin: auto;
   align-items: center;
 }
+
+.logo-container,
+.nav-links.nav-links,
+.cart {
+  display: flex;
+}
+
 .logo-container {
   background-color: palevioletred;
-  flex-grow: 1;
 }
 .logo {
   background-color: blue;
-  flex-grow: 1;
+
+  margin: 5px;
 }
 nav {
   background-color: chocolate;
@@ -30,7 +37,6 @@ nav {
 }
 .cart {
   background-color: darkgray;
-  flex-grow: 1;
 }
 a {
   text-decoration: none;
@@ -38,4 +44,7 @@ a {
 
 .nav-links {
   list-style-type: none;
+  justify-content: space-evenly;
+}
+.nav-link {
 }
