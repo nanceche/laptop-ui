@@ -18,15 +18,24 @@ header {
 }
 .logo-container {
   background-color: palevioletred;
+  flex-grow: 1;
 }
 .logo {
   background-color: blue;
+  flex-grow: 1;
 }
 nav {
   background-color: chocolate;
-  flex: 2;
+  flex-grow: 1;
 }
 .cart {
   background-color: darkgray;
-  flex: 0.5;
+  flex-grow: 1;
+}
+a {
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style-type: none;
 }
