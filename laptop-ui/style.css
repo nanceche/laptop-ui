@@ -72,8 +72,39 @@ footer {
 }
 .introduction {
   background-color: lightskyblue;
+
   flex: 1;
 }
 .cover {
   flex: 1;
+}
+
+.intro-text h1 {
+  font-size: 30px;
+  font-weight: bolder;
+  background: linear-gradient(to left, darkgray, gray);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.intro-text p {
+  margin-top: 5px;
+  font-size: 22px;
+  color: navy;
+}
+
+.cta {
+  padding: 50px 0px 0px 0px;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+}
+.cta-select {
+  border: 2px solid yellowgreen;
+  background: transparent;
+  color: blue;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
 }
