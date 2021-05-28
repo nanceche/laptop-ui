@@ -61,6 +61,7 @@ a {
 .cover img {
   height: 50vh;
   background-color: palevioletred;
+  filter: drop-shadow(0px 5px 3px black);
 }
 
 #cover2 {
@@ -107,4 +108,23 @@ button {
   width: 150px;
   height: 50px;
   cursor: pointer;
+  font-size: 16px;
+}
+
+.cta-add {
+  background: yellowgreen;
+  color: blue;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  margin: 0px 0px 0px 20px;
+}
+
+.big-circle {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: -1;
 }
