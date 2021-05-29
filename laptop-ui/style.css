@@ -166,3 +166,9 @@ button {
     transform: translateY(0px);
   }
 }
+
+@media only screen and (max-width: 739px) {
+  .presentation {
+    flex-direction: column;
+  }
+}
