@@ -52,7 +52,7 @@ a {
 .presentation {
   display: flex;
   height: 90vh;
-  background-color: purple;
+  /* background-color: purple; */
   width: 90%;
 
   margin: auto;
@@ -60,25 +60,27 @@ a {
 }
 .cover img {
   height: 50vh;
-  background-color: palevioletred;
+  /* background-color: palevioletred; */
   filter: drop-shadow(0px 5px 3px black);
   animation: drop 2s ease;
+  height: 100%;
 }
 
 #cover2 {
-  background-color: red;
+  /* background-color: red; */
 }
 
 footer {
   height: 10vh;
 }
 .introduction {
-  background-color: lightskyblue;
+  /* background-color: lightskyblue; */
 
   flex: 1;
 }
 .cover {
   flex: 1;
+  height: 50vh;
 }
 
 .intro-text h1 {
@@ -103,7 +105,7 @@ button {
   font-family: "Poppins", sans-serif;
 }
 .cta-select {
-  border: 2px solid yellowgreen;
+  border: 2px solid turquoise;
   background: transparent;
   color: blue;
   width: 150px;
@@ -113,7 +115,7 @@ button {
 }
 
 .cta-add {
-  background: yellowgreen;
+  background: turquoise;
   color: blue;
   width: 150px;
   height: 50px;
@@ -170,5 +172,25 @@ button {
 @media only screen and (max-width: 739px) {
   .presentation {
     flex-direction: column;
+  }
+  .introduction {
+    margin-top: 10vh;
+    text-align: center;
+  }
+  .cta {
+    padding: 10px 0px 0px 0px;
+  }
+  .laptop-select {
+    right: 230px;
+    transform: translate(10%);
+  }
+  footer {
+    height: 5px;
+  }
+  .cover {
+    margin-bottom: 250px;
+  }
+  .cover img {
+    size: 80%;
   }
 }
